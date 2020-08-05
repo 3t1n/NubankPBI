@@ -7,8 +7,8 @@ Se quiser tirar alguma dúvida pode me chamar no Linkedin https://www.linkedin.c
 Agradeço imensamente o @https://github.com/andreroggeri, por ter criado e mantido a biblioteca pynubank (responsável por se conectar nas apis oficiais do Banco), além de me ajudar muito tirando todas as minhas dúvidas, se puder confira a biblioteca, e se conseguir contribua com o projeto https://github.com/andreroggeri/pynubank
 
 ## Atenção !
-O Nubank pode bloquear a sua conta por 72 horas caso detecte algum comportamento anormal !
-Por conta disso, evite enviar muitas requisições. (Por conta disso a preferência em utilizar o Jupyter Notebook)
+Evite fazer mais do que 10 chamadas na API a cada 1 hora, para que o Nubank não ache que está ocorrendo movimentação suspeita em sua conta, e bloqueie a mesma por 72 horas
+
 ## Arquitetura
 ![Image 5](https://github.com/3t1n/NubankPBI/blob/master/Imagens/Nubank.png)
 
