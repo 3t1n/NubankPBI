@@ -45,6 +45,7 @@ input('Após escanear o QRCode pressione enter para continuar')
 # Você precisa escanear pelo o seu app do celular
 # Esse menu fica em NU > Perfil > Acesso pelo site
 # Após a leitura do qrcode execute essa linha
+# Insira seu CPF e sua senha da sua conta do Nubank
 nu.authenticate_with_qr_code('CPF', 'SENHA', uuid)
 ```
 ### Configurar Conexão com o MySQL
